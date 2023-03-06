@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap-reverse; 
+            justify-content: flex-start;
+            background-color:rgb(200, 255, 0);
+            height: 50vh;
+            align-items:flex-end; 
+            /* align-content: center; */
+        }
+        .box1{
+            height: 50px;
+            /* width: 50px; */
+            background-color: blue;
+            border: 2px solid black ;
+            order: 4;
+            align-self: flex-start;
+            flex-grow: 13;
+            /* float: right; */
+           /* flex-shrink: inherit; */
+
+        }
+        .box2{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border: 2px solid black;
+            flex-grow: 1;
+            /* float: right; */
+            /* clear: right; */
+            
+
+        }
+    </style>
+</head>
+<body> <div class="container">
+
+
+    <div class="box1"> box 1</div>
+    <div class="box2"> box 2</div>
+    <div class="box2"> box 2b</div>
+    <div class="box2"> box 2c</div>
+    <div class="box2"> box 2</div>
+</div>
+</body>
+</html>

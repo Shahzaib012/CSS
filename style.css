@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: rgb(127, 255, 165);
+    
+}
+#d{
+    background: #000;
+    color: aliceblue;
+}
+.t{
+    background: rgb(238, 255, 0);
+    color: rgb(10, 10, 10);
+}
+.container{
+    width: 330px;
+    height: 1730px;
+    border: solid red 2px;
+   
+    color: rgb(19, 198, 243);
+    /* background-image:  url('s.n.jpg')  ;
+    background-repeat:no-repeat;
+    background-size: 100px 70px;
+    background-position: center;
+    background-attachment: fixed; */
+    background:red  url('s.n.jpg') local top center;
+    background-size: 100px 70px;
+}
